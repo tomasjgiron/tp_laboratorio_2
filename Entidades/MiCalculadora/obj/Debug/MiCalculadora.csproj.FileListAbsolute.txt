@@ -1,0 +1,14 @@
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\bin\Debug\Entidades.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\bin\Debug\Entidades.exe.config
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
