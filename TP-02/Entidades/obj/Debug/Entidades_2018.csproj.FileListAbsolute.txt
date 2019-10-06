@@ -1,0 +1,6 @@
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\TP-02-Cascara\TP-02\Entidades\bin\Debug\Entidades.dll
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\TP-02-Cascara\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades_2018.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades_2018.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades.dll
+C:\Users\tomas\source\repos\TomasGiron_GuiaEjercicios\Trabajos Prácticos\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades.pdb
