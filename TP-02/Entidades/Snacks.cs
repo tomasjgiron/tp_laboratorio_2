@@ -48,7 +48,7 @@ namespace Entidades_2018
 
             cadenaSnack.AppendLine("SNACKS");
             cadenaSnack.AppendLine(base.Mostrar());
-            cadenaSnack.AppendFormat("CALORIAS : {0}", this.CantidadCalorias);
+            cadenaSnack.AppendFormat("CALORIAS: {0}\r\n", this.CantidadCalorias);
             cadenaSnack.AppendLine("");
             cadenaSnack.AppendLine("---------------------");
 

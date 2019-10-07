@@ -70,8 +70,8 @@ namespace Entidades_2018
         {
             StringBuilder cadena = new StringBuilder();
             cadena.AppendFormat("CODIGO DE BARRAS: {0}\r\n", p.codigoDeBarras);
-            cadena.AppendFormat("MARCA          : {0}\r\n", p.marca.ToString());
-            cadena.AppendFormat("COLOR EMPAQUE  : {0}\r\n", p.colorPrimarioEmpaque.ToString());
+            cadena.AppendFormat("MARCA: {0}\r\n", p.marca.ToString());
+            cadena.AppendFormat("COLOR EMPAQUE: {0}\r\n", p.colorPrimarioEmpaque.ToString());
             cadena.AppendLine("-----------------------------");
 
             return cadena.ToString();

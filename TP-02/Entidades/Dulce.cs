@@ -39,7 +39,7 @@ namespace Entidades_2018
         /// Publica todos los datos de Dulce y Producto
         /// </summary>
         /// <returns></returns>
-        public new string Mostrar()
+        public override sealed string Mostrar()
         {
             StringBuilder cadenaDulce = new StringBuilder();
             /*
@@ -48,7 +48,7 @@ namespace Entidades_2018
             */
             cadenaDulce.AppendLine("DULCE");
             cadenaDulce.AppendLine(base.Mostrar());
-            cadenaDulce.AppendFormat("CALORIAS : {0}", this.CantidadCalorias);
+            cadenaDulce.AppendFormat("CALORIAS: {0}\r\n", this.CantidadCalorias);
             cadenaDulce.AppendLine("");
             cadenaDulce.AppendLine("---------------------");
 

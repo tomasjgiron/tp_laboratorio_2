@@ -35,7 +35,7 @@ namespace Entidades_2018
         /// <param name="color"></param>
         /// <param name="tipo"></param>
         public Leche(EMarca marca, string codigo, ConsoleColor color, ETipo tipo) 
-            : this(marca,codigo,color)
+            : base(marca,codigo,color)
         {
             this.tipo = tipo;
         }
@@ -65,8 +65,8 @@ namespace Entidades_2018
 
             cadenaLeche.AppendLine("LECHE");
             cadenaLeche.AppendLine(base.Mostrar());
-            cadenaLeche.AppendFormat("CALORIAS : {0}", this.CantidadCalorias);
-            cadenaLeche.AppendFormat("TIPO : ", this.tipo);
+            cadenaLeche.AppendFormat("CALORIAS: {0}\r\n", this.CantidadCalorias);
+            cadenaLeche.AppendFormat("TIPO: {0}\r\n", this.tipo);
             cadenaLeche.AppendLine("");
             cadenaLeche.AppendLine("---------------------");
 
