@@ -10,16 +10,16 @@ namespace Entidades_2018
     /// <summary>
     /// La clase Producto no deberá permitir que se instancien elementos de este tipo.
     /// </summary>
-    public abstract class Producto//decía sealed
+    public abstract class Producto
     {
         #region atributos
-        private EMarca marca;//agregue private
-        private string codigoDeBarras;//agregue private
-        private ConsoleColor colorPrimarioEmpaque;//agregue private
+        private EMarca marca;
+        private string codigoDeBarras;
+        private ConsoleColor colorPrimarioEmpaque;
         #endregion
 
         #region enumeración
-        public enum EMarca//agregue public
+        public enum EMarca
         {
             Serenisima, Campagnola, Arcor, Ilolay, Sancor, Pepsico
         }
@@ -29,7 +29,7 @@ namespace Entidades_2018
         /// <summary>
         /// ReadOnly: Retornará la cantidad de ruedas del vehículo
         /// </summary>
-        protected abstract short CantidadCalorias { get; }//agregue protected
+        protected abstract short CantidadCalorias { get; }
         #endregion
 
         #region constructores
@@ -39,7 +39,7 @@ namespace Entidades_2018
         /// <param name="marca"></param>
         /// <param name="codigo"></param>
         /// <param name="color"></param>
-        public Producto(EMarca marca, string codigo, ConsoleColor color) //constructor creado
+        public Producto(EMarca marca, string codigo, ConsoleColor color)
         {
             this.marca = marca;
             this.codigoDeBarras = codigo;
@@ -55,9 +55,6 @@ namespace Entidades_2018
         public virtual string Mostrar()
         {
             return (string)this;
-            /*
-                return this;
-            */
         }
         #endregion
 
@@ -75,16 +72,6 @@ namespace Entidades_2018
             cadena.AppendLine("-----------------------------");
 
             return cadena.ToString();
-            /*
-            StringBuilder sb = new StringBuilder();
-
-            sb.AppendLine("CODIGO DE BARRAS: {0}\r\n", p.codigoDeBarras);
-            sb.AppendLine("MARCA          : {0}\r\n", p.marca.ToString());
-            sb.AppendLine("COLOR EMPAQUE  : {0}\r\n", p.colorPrimarioEmpaque.ToString());
-            sb.AppendLine("---------------------");
-
-            return sb;*/
-
         }
 
         /// <summary>
@@ -95,7 +82,12 @@ namespace Entidades_2018
         /// <returns></returns>
         public static bool operator ==(Producto v1, Producto v2)
         {
-            return (v1.codigoDeBarras == v2.codigoDeBarras);
+            bool retorno = false;
+            if (!(v1 is null) && !(v2 is null) && v1.codigoDeBarras == v2.codigoDeBarras)
+            {
+                retorno = true;
+            }
+            return retorno;
         }
         /// <summary>
         /// Dos productos son distintos si su código de barras es distinto
@@ -105,7 +97,7 @@ namespace Entidades_2018
         /// <returns></returns>
         public static bool operator !=(Producto v1, Producto v2)
         {
-            return !(v1 == v2);//no estaba reutilizado el codigo de arriba
+            return !(v1 == v2);
         }
         #endregion
     }

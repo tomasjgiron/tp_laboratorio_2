@@ -10,9 +10,15 @@ namespace Entidades_2018
     public class Leche : Producto
     {
         #region atributos
-        public enum ETipo { Entera, Descremada }
-        private ETipo tipo;
+        private ETipo tipo = ETipo.Entera;
         #endregion
+
+        #region enumeración
+        public enum ETipo
+        {
+            Entera, Descremada
+        }
+        #endregion enumeración
 
         #region constructores
         /// <summary>
@@ -24,7 +30,6 @@ namespace Entidades_2018
         public Leche(EMarca marca, string codigo, ConsoleColor color)
             : base(marca, codigo, color)
         {
-            this.tipo = ETipo.Entera;
         }
 
         /// <summary>
@@ -35,7 +40,7 @@ namespace Entidades_2018
         /// <param name="color"></param>
         /// <param name="tipo"></param>
         public Leche(EMarca marca, string codigo, ConsoleColor color, ETipo tipo) 
-            : base(marca,codigo,color)
+            : this(marca,codigo,color)
         {
             this.tipo = tipo;
         }

@@ -9,7 +9,7 @@ namespace Entidades_2018
     /// <summary>
     /// No podrá tener clases heredadas.
     /// </summary>
-    public sealed class Changuito//agregue sealed porque no puede heredar
+    public sealed class Changuito
     {
         #region atributos
         List<Producto> productos;
@@ -49,8 +49,8 @@ namespace Entidades_2018
         /// </summary>
         /// <returns></returns>
         public override string ToString()
-        {
-            return Mostrar(this, ETipo.Todos);//le saque el Changuito porque es sealed
+        { 
+            return Mostrar(this, ETipo.Todos);
         }
         #endregion
 
@@ -74,25 +74,25 @@ namespace Entidades_2018
                 {
                     case ETipo.Snacks:
                         {
-                            if (prod is Snacks)//agregue la verificacion por clase
+                            if (prod is Snacks)
                             {
-                                cadenaChanguito.AppendLine(((Snacks)prod).Mostrar());//conversion explicita
+                                cadenaChanguito.AppendLine(prod.Mostrar());
                             }
                             break;
                         }
                     case ETipo.Dulce:
                         {
-                            if (prod is Dulce)//agregue la verificacion por clase
+                            if (prod is Dulce)
                             {
-                                cadenaChanguito.AppendLine(((Dulce)prod).Mostrar());//conversion explicita
+                                cadenaChanguito.AppendLine(prod.Mostrar());
                             }
                             break;
                         }
                     case ETipo.Leche:
                         {
-                            if (prod is Leche)//agregue la verificacion por clase
+                            if (prod is Leche)
                             {
-                                cadenaChanguito.AppendLine(((Leche)prod).Mostrar());//conversion explicita
+                                cadenaChanguito.AppendLine(prod.Mostrar());
                             }
                             break;
                         }

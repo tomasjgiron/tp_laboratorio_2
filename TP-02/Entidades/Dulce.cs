@@ -12,7 +12,7 @@ namespace Entidades_2018
         /// <summary>
         /// Los dulces tienen 80 calorías
         /// </summary>
-        protected override short CantidadCalorias//agregue override
+        protected override short CantidadCalorias
         {
             get
             {
@@ -29,7 +29,7 @@ namespace Entidades_2018
         /// <param name="codigo"></param>
         /// <param name="color"></param>
         public Dulce(EMarca marca, string codigo, ConsoleColor color)
-            : base(marca,codigo,color)//contructor creado
+            : base(marca,codigo,color)
         {
         }
         #endregion
@@ -42,10 +42,6 @@ namespace Entidades_2018
         public override sealed string Mostrar()
         {
             StringBuilder cadenaDulce = new StringBuilder();
-            /*
-            string auxProducto;//puedo crear un auxiliar string
-            auxProducto = base.Mostrar(); //guardarle los datos de la clase base
-            */
             cadenaDulce.AppendLine("DULCE");
             cadenaDulce.AppendLine(base.Mostrar());
             cadenaDulce.AppendFormat("CALORIAS: {0}\r\n", this.CantidadCalorias);
@@ -53,9 +49,6 @@ namespace Entidades_2018
             cadenaDulce.AppendLine("---------------------");
 
             return cadenaDulce.ToString();
-            /*
-            return auxProducto + cadenaDulce; //al retornar lo concateno con los datos de la clase derivada
-            */
         }
         #endregion
     }
