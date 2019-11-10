@@ -1,0 +1,16 @@
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Giron.Main.TP3.exe.config
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Giron.Main.TP3.exe
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Giron.Main.TP3.pdb
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Archivos.dll
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Entidades.dll
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\EntidadesAbstractas.dll
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Excepciones.dll
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Archivos.pdb
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Entidades.pdb
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\bin\Debug\Excepciones.pdb
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\obj\Debug\Giron.Main.TP3.csprojAssemblyReference.cache
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\obj\Debug\Giron.Main.TP3.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\obj\Debug\Giron.Main.TP3.csproj.CopyComplete
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\obj\Debug\Giron.Main.TP3.exe
+C:\Users\tomas\source\repos\Giron.Tomas.2C.TP3\Giron.Main.TP3\obj\Debug\Giron.Main.TP3.pdb

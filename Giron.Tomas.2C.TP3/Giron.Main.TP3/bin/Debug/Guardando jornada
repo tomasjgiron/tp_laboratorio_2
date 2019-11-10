@@ -1,0 +1,56 @@
+Sus clases: Laboratorio
+Su instructor: Profesor
+Su nombre: Juan
+Su apellido: Lopez
+Su DNI: 12234456
+Su nacionalidad: Argentino
+-----------------------------
+
+Su legajo: 1
+----------------------
+Las clases que imparte: System.Collections.Generic.Queue`1[Entidades.Universidad+EClases]
+----------------------
+
+Alumno: Alumno
+Su nombre: Joaquin
+Su apellido: Suarez
+Su DNI: 91122456
+Su nacionalidad: Extranjero
+-----------------------------
+
+Su legajo: 7
+----------------------
+La clase que toma: Laboratorio
+Su estado de cuenta: AlDia
+----------------------
+
+-----------------------------
+
+JORNADA:
+CLASE DE Programacion POR NOMBRE COMPLETO: Lopez, Juan
+NACIONALIDAD: Argentino
+
+LEGAJO NÚMERO: 1
+CLASES DEL DÍA: 
+Laboratorio
+Programacion
+ALUMNOS: Alumno
+NOMBRE COMPLETO: Lopez, Juan
+NACIONALIDAD: Argentino
+
+LEGAJO NÚMERO: 1
+La clase que toma: Programacion
+Su estado de cuenta: Becado
+
+
+ALUMNOS: Alumno
+NOMBRE COMPLETO: Gonzalez, Carlos
+NACIONALIDAD: Argentino
+
+LEGAJO NÚMERO: 5
+La clase que toma: Programacion
+Su estado de cuenta: AlDia
+
+<------------------------------------------------>
+
+
